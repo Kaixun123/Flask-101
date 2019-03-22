@@ -1,0 +1,21 @@
+flaks tutorial on forms and validation
+
+pip install flash-wtf (in cmd)
+
+database with Flask-SQLAlchemy
+- we will be using a SQLite database for development 
+
+pip install flask-sqlalchemy
+pip install pylint-flask
+
+user authentication
+hashing algorithms 
+
+pip install flask-bcrypt
+pip install flask-login
+
+to reformat images 
+- pip install pillow
+
+to send email in flask
+- pip install flask-mail

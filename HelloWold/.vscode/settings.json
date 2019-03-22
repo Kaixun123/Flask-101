@@ -1,0 +1,6 @@
+{
+    "json.trace.server": "messages",
+    "typescript.tsserver.trace": "messages",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
