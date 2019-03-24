@@ -1,12 +1,13 @@
-flaks tutorial on forms and validation
+flask tutorial on forms and validation
 
-pip install flash-wtf (in cmd)
+- pip install flask-wtf(in cmd)
+- pip install flask-flash
 
 database with Flask-SQLAlchemy
 - we will be using a SQLite database for development 
 
-pip install flask-sqlalchemy
-pip install pylint-flask
+- pip install flask-sqlalchemy
+- pip install pylint-flask
 
 user authentication
 hashing algorithms 
