@@ -32,8 +32,10 @@ def create_app(config_class=Config):
     from HelloWold.users.routes import users
     from HelloWold.posts.routes import posts
     from HelloWold.main.routes import main
+    from HelloWold.errors.handlers import errors
     app.register_blueprint(users)
     app.register_blueprint(posts)
     app.register_blueprint(main)
+    app.register_blueprint(errors)
 
     return app 
