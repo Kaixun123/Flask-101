@@ -1,4 +1,8 @@
 from datetime import datetime
+''' 
+    serialization/serialisation is the process of translating data structure or object 
+    state into a format that can be stored or transmitted and reconstructed later.
+'''
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from HelloWold import db, login_manager
 from flask import current_app
@@ -8,6 +12,7 @@ from flask_login import UserMixin
 def load_user(user_id):
    return User.query.get(int(user_id))
 
+# model for the user information (username, email, password, etc.)
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
@@ -39,8 +44,8 @@ class User(db.Model, UserMixin):
     def __repr__(self):
         return f"User('{self.username}', '{self.email}', '{self.image_file}')"
 
-#db.column is to create a new column into the database
-
+# db.column is to create a new column into the database
+# model for the post (title, id, content, etc.)
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)

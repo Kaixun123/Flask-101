@@ -7,6 +7,7 @@ class Config:
     SECRET_KEY = os.environ.get('secrets_key')
     # database with Flask-SQLAlchemy, we will be using a SQLite database for development
     SQLALCHEMY_DATABASE_URI = os.environ.get('DB')
+    # creating and sending the custom email
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_POST = 587
     MAIL_USE_TLS = True

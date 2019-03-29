@@ -1,0 +1,57 @@
+All possible libraries/extension: http://flask.pocoo.org/extensions/
+
+15 Useful Flask Extensions:
+
+Gunicorn []
+- one of the most popular WSGI(Web Server Gateway Interface) based servers for python.
+- super easy to configure and get going
+- very efficient
+
+flask-debugtoolbar []
+- a nice toolbar that shows HTTP headers, request variables, config settings, a break down of template renderings,
+SQLAlchemy queries and more.
+- custom output
+
+pytest/pytest-cov []
+- great interface for running unit and integration tests
+- can set up fixtures for your data too
+- a lot of useful output from writing tests with very little boilerplate.
+- 'Pytest-cov' is an add-on that gives you a read-out of your test coverage.
+
+flake8 []
+- analyze your code base for styling consistency and mistakes
+- essential for open source projects because it keeps everyone on the same page for style guides
+
+Flask-SQLAlchemy & psycopg2 []
+- psycopg2 lets Python communicate with PostgreSQL
+- Flask-SQLALchemy uses SQLAlchemy under the hood to provide you an ORM(Object-relational mapping).
+- SQLAlchemy is flexible enough to where you can write raw SQL
+
+alembic []
+- migrate of database (if you use SQLAlchemy)
+
+celery & redis []
+- to execute background jobs, managing jobs & running off tasks or scheduled tasks
+- Redis is just a key / value store that you can use to back your Celery jobs
+
+Flask-WTF & WTForms-Components []
+- set up things like which fields belong to which form, set up validation rules
+and additional logic related to processing a form
+- WTForms-Components is just an add-on that provides a few common field types, validations
+and widgets that don’t come with WTForms by default
+-Some of these include TimeField, SelectMultipleField and being able to do a database backed Uniqueness check on a field
+
+Flask-Login [Y]
+- free reign to create a user flow that works best for your application,
+but it takes care of the scary parts of authentication such as session management and dealing with cookies
+
+Flask-limiter []
+- controlling traffic rates. You can do rate limiting by IP address or other rules
+- (e.g.) “Only let users visit this page once per minute, but let admins always visit it”
+- could be used to protect API endpoints as well
+- use together with Redis as a back-end to store the rate limit information so lookups and writes are lightning fast
+
+Flask-Mail [Y]
+- Flask-Mail handles sending SMTP based email.
+- has a debug mode which lets you test sending emails without actually sending them out. It also deals with attachments too
+

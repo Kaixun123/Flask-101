@@ -1,19 +1,18 @@
-flask tutorial on forms and validation
+Flask Tutorial:
+blueprints: in all unique folders(main,posts,users), a __init__.py file is required
 
+flask tutorial on forms and validation
 - pip install flask-wtf(in cmd)
 - pip install flask-flash
 
 database with Flask-SQLAlchemy
-- we will be using a SQLite database for development 
-
+- we will be using a SQLite database for development
 - pip install flask-sqlalchemy
-- pip install pylint-flask
+- pip install pylint-flask (if pylint is not installed on your computer, otherwise can ignore)
 
-user authentication
-hashing algorithms 
-
-pip install flask-bcrypt
-pip install flask-login
+user authentication/hashing algorithms (hashing passwords and sending to DB)
+- pip install flask-bcrypt
+- pip install flask-login
 
 to reformat images 
 - pip install pillow

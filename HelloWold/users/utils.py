@@ -5,6 +5,7 @@ from flask import url_for, current_app
 from flask_mail import Message
 from HelloWold import mail
 
+# saving the picture into the database
 def save_picture(form_picture):
     random_hex = secrets.token_hex(8)
     #to make sure the image format remains the same after saving into the database
