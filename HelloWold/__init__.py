@@ -1,5 +1,5 @@
-#import flask into this .py file
-#url4 is a flask function find the exact number of routes for us
+# import flask into this .py file
+# url_for is a flask function find the exact number of routes for us
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -8,13 +8,12 @@ from flask_login import LoginManager
 from flask_mail import Mail
 from HelloWold.config import Config
 
-
 # can represent our db structure as classes/models
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 login_manager = LoginManager()
 
-#login_view is to make sure that the account is login before access any pages
+# login_view is to make sure that the account is login before access any pages
 login_manager.login_view = 'users.login'
 login_manager.login_message_category = 'info'
 mail = Mail()

@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9b9aa59-99f7-4fb0-b543-4069e6390831" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HelloWold/errors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWold/errors/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWold/templates/errors/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWold/templates/errors/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWold/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Flask-101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flask-101.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HelloWold/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWold/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWold/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWold/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWold/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWold/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWold/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWold/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWold/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWold/users/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorial.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,40 +20,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWold/models.py">
+        <entry file="file://$PROJECT_DIR$/Tutorial.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-653">
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWold/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#99#122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HelloWold/templates/post.html">
+        <entry file="file://$PROJECT_DIR$/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="1250">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWold/errors/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,28 +47,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/403.html">
+        <entry file="file://$PROJECT_DIR$/HelloWold/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="375">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/404.html">
+        <entry file="file://$PROJECT_DIR$/HelloWold/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/500.html">
+        <entry file="file://$PROJECT_DIR$/HelloWold/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
+            <state relative-caret-position="250">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HelloWold/users/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -137,16 +137,22 @@
         <option value="$PROJECT_DIR$/HelloWold/templates/errors/404.html" />
         <option value="$PROJECT_DIR$/HelloWold/templates/errors/403.html" />
         <option value="$PROJECT_DIR$/HelloWold/templates/errors/500.html" />
-        <option value="$PROJECT_DIR$/HelloWold/__init__.py" />
         <option value="$PROJECT_DIR$/HelloWold/templates/post.html" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/HelloWold/config.py" />
+        <option value="$PROJECT_DIR$/HelloWold/models.py" />
+        <option value="$PROJECT_DIR$/HelloWold/__init__.py" />
+        <option value="$PROJECT_DIR$/HelloWold/users/utils.py" />
+        <option value="$PROJECT_DIR$/Tutorial.txt" />
+        <option value="$PROJECT_DIR$/note.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="2586" />
-    <option name="height" value="1466" />
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,17 +170,6 @@
               <item name="Flask-101" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flask-101" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Flask-101" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flask-101" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWold" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flask-101" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flask-101" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWold" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,6 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2537613" />
@@ -221,10 +217,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3468576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11433087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,7 +231,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5818792" visible="true" weight="0.30728242" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5818792" visible="true" weight="0.14956856" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4181208" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49477613" weight="0.3297546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -267,25 +263,12 @@
     <entry file="file://$PROJECT_DIR$/HelloWold/hellowold/users/utils.py" />
     <entry file="file://$PROJECT_DIR$/HelloWold/hellowold/config.py" />
     <entry file="file://$PROJECT_DIR$/HelloWold/hellowold/models.py" />
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWold/templates/reset_token.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Flask-101/HelloWold/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/Flask-101/HelloWold/run.py" />
     <entry file="file://$PROJECT_DIR$/HelloWold/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -322,11 +305,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/404.py">
+    <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/404.py" />
+    <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/500.py" />
+    <entry file="file://$PROJECT_DIR$/HelloWold/templates/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWold/errors/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/500.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/404.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -342,25 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWold/templates/errors/403.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWold/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWold/errors/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWold/errors/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -368,20 +345,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWold/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWold/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWold/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="250">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWold/users/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding>
-            <element signature="e#99#122#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWold/templates/post.html">
+    <entry file="file://$PROJECT_DIR$/Tutorial.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
